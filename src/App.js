@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Dashboard from './pages/Dashboard';
+
 
 function App() {
   return (
@@ -18,7 +22,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <Navbar />
+ <Dashboard />
     </div>
+    
   );
 }
 
